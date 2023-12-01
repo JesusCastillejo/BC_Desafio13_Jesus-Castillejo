@@ -1,0 +1,43 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(0, 119, 255, 0.658);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 15px;
+  
+}
+
+.label {
+  margin-bottom: 1rem;
+  font-size: larger;
+  font-weight: 800;
+}
+
+.input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 15px;
+}
+
+.submit {
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 15px;
+  font-weight: 800;
+}
+
+.message {
+  font-size: 1.5rem;
+  color: black;
+}
